@@ -1,0 +1,52 @@
+@media (max-width:24rem) {
+    html {
+        font-size: 48%;
+        overflow-x: hidden;
+    }
+
+    body {
+        font-size: 1.3rem;
+        overflow-x: hidden;
+    }
+
+    .head {
+        padding: 5rem 3rem;
+        gap: 7rem;
+    }
+
+    .btn {
+        padding: 1.5rem;
+    }
+
+    .between {
+        font-size: 1.3rem;
+        line-height: 1.7;
+    }
+
+    .hero-text {
+        font-size: 4.3rem;
+        line-height: 1.8;
+    }
+
+    .guess {
+        transform: translate(-17%, -108%);
+    }
+
+    .grid {
+        max-width: 50rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 9rem 0 5rem;
+        padding: 0;
+    }
+
+    .left {
+        margin-top: 5rem;
+    }
+
+    .right {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
